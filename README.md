@@ -53,6 +53,8 @@ Changes are saved in this browser's local storage. Only one tab can edit the eve
 
 After a complete first load, a service worker caches the app so the same address can open without a network connection. Browser settings, private browsing or cache eviction may prevent this. Event data and exports are not encrypted. Clearing browser data deletes the saved event, so export regularly and keep backups somewhere appropriate.
 
+The hosted copy uses GitHub Pages. GitHub logs visitor IP addresses for security; BenchDay does not send event contents to the host. See the [GitHub privacy statement](https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement).
+
 ## Tests
 
 ```sh

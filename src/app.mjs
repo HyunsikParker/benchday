@@ -1316,6 +1316,20 @@ function helpDialog() {
         {},
         "Event data stays in this browser’s local storage. It is not encrypted or backed up automatically. Use nicknames and avoid contact, medical or other sensitive details. Export regularly; clearing browser data removes the event.",
       ),
+      location.hostname.endsWith("github.io")
+        ? h(
+            "p",
+            {},
+            "This copy is hosted on GitHub Pages. GitHub logs visitors’ IP addresses for security. BenchDay does not send your event contents to GitHub. ",
+            h(
+              "a",
+              {
+                href: "https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement",
+              },
+              "GitHub privacy statement",
+            ),
+          )
+        : null,
       h(
         "p",
         {},
