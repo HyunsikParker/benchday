@@ -12,7 +12,7 @@ Seven items are
 
 3
 00:00:06.865 --> 00:00:10.298
-waiting. and three volunteers are available. The next batch turns
+waiting, and three volunteers are available. The next batch turns
 those separate lists
 
 4
@@ -21,17 +21,17 @@ into a shared plan.
 
 5
 00:00:14.430 --> 00:00:18.513
-Each volunteer has skills. a shift. and a duty status. Rowan can
+Each volunteer has skills, a shift, and a duty status. Rowan can
 repair
 
 6
 00:00:18.513 --> 00:00:22.597
-bicycles and electrical items. Alex handles bicycles. and Sam handles
+bicycles and electrical items. Alex handles bicycles, and Sam handles
 textiles. The bike
 
 7
 00:00:22.597 --> 00:00:26.680
-stand. electrical bench. and sewing machine each have one available
+stand, electrical bench, and sewing machine each have one available
 unit. Jo is
 
 8
@@ -44,16 +44,16 @@ Giving the first bicycle to Rowan would leave Alex idle and the lamp
 
 10
 00:00:35.196 --> 00:00:38.928
-waiting. In this example. that greedy baseline starts two repairs.
+waiting. In this example, that greedy baseline starts two repairs.
 Bench Day assigns
 
 11
 00:00:38.928 --> 00:00:42.660
-Alex to the bicycle. Rowan to the lamp. and Sam to the bag.
+Alex to the bicycle, Rowan to the lamp, and Sam to the bag,
 
 12
 00:00:42.660 --> 00:00:46.392
-starting three. This is a software example. not measured field impact.
+starting three. This is a software example, not measured field impact.
 The safety
 
 13
@@ -67,7 +67,7 @@ it. The app
 
 15
 00:00:54.810 --> 00:00:58.796
-checks skills. shifts. closing time. and shared tools again. People
+checks skills, shifts, closing time, and shared tools again. People
 remain responsible for
 
 16
@@ -76,7 +76,7 @@ safety and for the estimates they enter.
 
 17
 00:01:03.482 --> 00:01:08.137
-After confirmation. three repairs are active. The other bicycle waits
+After confirmation, three repairs are active. The other bicycle waits
 because its stand
 
 18
@@ -86,7 +86,7 @@ stay
 
 19
 00:01:12.792 --> 00:01:17.446
-reserved until someone records an outcome. even if the estimated time
+reserved until someone records an outcome, even if the estimated time
 has passed.
 
 20
@@ -95,7 +95,7 @@ The event clock is manual. Here it moves from ten o clock to
 
 21
 00:01:22.008 --> 00:01:25.870
-ten twenty. Reception should set it before check-in. dispatch. and
+ten twenty. Reception should set it before check-in, dispatch, and
 outcome recording. Advancing
 
 22
@@ -104,8 +104,8 @@ the clock does not mark any repair finished.
 
 23
 00:01:30.432 --> 00:01:34.253
-Sam has finished the bag. The operator can record repaired. needs
-parts. or
+Sam has finished the bag. The operator can record repaired, needs
+parts, or
 
 24
 00:01:34.253 --> 00:01:38.074
@@ -118,7 +118,7 @@ Sam and the sewing machine.
 
 26
 00:01:42.595 --> 00:01:46.721
-The proposal updates immediately. Sam can now take the jacket. while
+The proposal updates immediately. Sam can now take the jacket, while
 the bicycle
 
 27
@@ -132,8 +132,8 @@ each waiting item show what is preventing its assignment.
 
 29
 00:01:55.673 --> 00:01:59.350
-The repair log shows the bag. its volunteer. the start and finish
-times.
+The repair log shows the bag, its volunteer, the start and finish
+times,
 
 30
 00:01:59.350 --> 00:02:03.027
@@ -155,7 +155,7 @@ checked
 
 34
 00:02:14.935 --> 00:02:18.700
-with its local server stopped. Backups are not encrypted. so use
+with its local server stopped. Backups are not encrypted, so use
 nicknames and
 
 35
@@ -164,7 +164,7 @@ avoid sensitive details.
 
 36
 00:02:23.165 --> 00:02:27.434
-Eight tests pass. including three hundred small cases compared with an
+Eight tests pass, including three hundred small cases compared with an
 independent exhaustive
 
 37
@@ -174,7 +174,7 @@ proven. Codex
 
 38
 00:02:31.704 --> 00:02:35.973
-assisted the implementation. tests. and documentation. The next step
+assisted the implementation, tests, and documentation. The next step
 is testing these assumptions
 
 39
