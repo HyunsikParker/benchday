@@ -1,0 +1,9 @@
+{
+  "name": "BenchDay",
+  "short_name": "BenchDay",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#f5f7f6",
+  "theme_color": "#173e32",
+  "description": "A local repair-event queue for volunteers and shared tools."
+}

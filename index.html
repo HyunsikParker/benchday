@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#173e32" />
+    <meta
+      name="description"
+      content="A local repair-event queue. Match waiting repairs with available volunteers and shared tools."
+    />
+    <title>BenchDay · repair together</title>
+    <link rel="manifest" href="./manifest.webmanifest" />
+    <link rel="stylesheet" href="./styles.css" />
+    <script type="module" src="./src/app.mjs"></script>
+  </head>
+  <body>
+    <a class="skip" href="#main">Skip to event board</a>
+    <div id="app"><p class="loading">Opening BenchDay…</p></div>
+    <div id="notice" class="notice" role="status" aria-live="polite"></div>
+    <noscript
+      >BenchDay needs JavaScript to manage the local event. No event data is
+      sent to a server.</noscript
+    >
+  </body>
+</html>
